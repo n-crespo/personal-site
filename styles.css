@@ -1,0 +1,25 @@
+h1,
+h2,
+h3 {
+  font-style: italic;
+}
+
+body {
+  text-align: center;
+
+  display: flex;
+  flex-direction: ;
+  background: white;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  /* border: 6px; */
+}
+
+#pfp-img {
+  border: 10px solid red;
+  border-color: red;
+  width: 150px;
+  border-radius: 50%;
+}
