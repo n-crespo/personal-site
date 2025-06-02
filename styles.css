@@ -10,15 +10,6 @@ body {
   height: 100vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-grow: 1;
-}
-
 .socials {
   position: absolute;
   bottom: 20px;
@@ -52,8 +43,4 @@ a {
   text-decoration: none;
   color: #0077b5; /* LinkedIn blue */
   font-weight: bold;
-}
-
-.linked a:hover {
-  text-decoration: underline;
 }
