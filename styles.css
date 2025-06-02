@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #111111;
   margin: 0;
   padding: 0;
   display: flex;
@@ -28,13 +28,15 @@ body {
   gap: 20px;
 }
 
-.linked-logo {
-  height: 30px;
+.social-icon {
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 7px;
 }
 
 #msg {
   text-align: center;
-  color: #333000;
+  color: #eeeeee;
 }
 
 h1 {
