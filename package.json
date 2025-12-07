@@ -1,0 +1,24 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/n-crespo/personal-site#readme",
+  "bugs": {
+    "url": "https://github.com/n-crespo/personal-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-crespo/personal-site.git"
+  },
+  "license": "ISC",
+  "author": "Nicolas Crespo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^7.2.6"
+  }
+}
