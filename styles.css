@@ -44,3 +44,8 @@ a {
   color: #0077b5; /* LinkedIn blue */
   font-weight: bold;
 }
+
+#resume-link {
+  text-decoration: underline;
+  font-weight: normal;
+}
