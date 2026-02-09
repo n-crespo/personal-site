@@ -10,7 +10,8 @@
     <div class="center-container">
       <div id="msg">
         <h1>Nicolas Crespo</h1>
-        <p>UCLA Computer Engineering</p>
+        <p>Computer Engineering @ UCLA</p>
+        <p id="email-link"></p>
       </div>
     </div>
     <div class="socials">
@@ -32,5 +33,14 @@
         />
       </a>
     </div>
+
+    <script>
+      const u = "bmNyZXNwbw==";
+      const d = "dWNsYS5lZHU=";
+      const decode = (str) => atob(str);
+      const email = decode(u) + "@" + decode(d);
+      const el = document.getElementById("email-link");
+      el.innerHTML = `<a href="mailto:${email}">${email}</a>`;
+    </script>
   </body>
 </html>
